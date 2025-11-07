@@ -1,0 +1,306 @@
+html {
+font-size: 1rem;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Landing page - Updated colors */
+.bg-image {
+  background: linear-gradient(135deg, #FDCC51 0%, #FF8D29 100%);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.overlay {
+  background: rgba(76,76,76,0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+.landing-content {
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+  text-align: center;
+  top: 40vh;
+}
+
+/* NAVBAR - Updated colors */
+.navbar {
+  background: #FFFFFF;
+}
+
+.nav-link, .navbar-brand {
+  color: #4C4C4C;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1rem !important;
+  border-radius: 100px;
+}
+
+.nav-link:hover{
+  background: #FDCC51;
+  color: #000000;
+  border-radius: 100px;
+}
+
+.navbar-brand:hover {
+  background: #FDCC51;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  border: 0;
+}
+
+.navbar-toggler{
+  background: #FDCC51 !important;
+  border: 0;
+  color: #4C4C4C;
+}
+
+a.active {
+ background: #FF8D29;
+  border-radius: 100px;
+}
+
+/* ELEMENT STYLES - Updated fonts and colors */
+h1, h2, h3, h4, h5 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  color: #000000;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #000000;
+  padding-top: .5rem;
+  font-size: 2.5rem;
+}
+
+h3 {
+  padding-bottom: 0.3rem;
+  padding-top: 1rem;
+ color: #FF8D29;
+}
+
+h4 {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  color: #4C4C4C;
+}
+
+p, ul, ol, li, a {
+  font-family: 'Montserrat', sans-serif;
+  color: #4C4C4C;
+}
+
+p.intro {
+  color: #FFFFFF;
+  font-size: 1.1em;
+  padding-top: 1em;
+  text-align: left;
+}
+
+/* Header background - Updated */
+header {
+  background: linear-gradient(135deg, #FDCC51 0%, #FF8D29 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  border: 0;
+    border-left: 4px solid #FDCC51;
+    padding-left: 3rem;
+    margin: 20px 0;
+}
+  
+.aside {
+  padding-right: 3rem;
+  margin: 20px 0;
+}
+
+/* Social Media - Updated colors */
+a.headsocial i {
+  color: #FFFFFF;
+}
+
+a.headsocial:hover i {
+  color: #FDCC51;
+}
+
+a.footsocial i {
+  color: #4C4C4C;
+}
+
+a.footsocial:hover i {
+  color: #FF8D29;
+}
+
+/* Progress bars - Updated colors */
+.progress {
+  height: 50px;
+  margin: 20px;
+}
+
+.adobe {
+  background-color: #FDCC51;
+}
+
+.micro {
+  background-color: #FF8D29;
+}
+
+.socmedia {
+  background-color: #4C4C4C;
+}
+
+/* Cards - Updated border color */
+.card {
+  border: 5px solid #FDCC51 !important;
+}
+
+/* Button colors updated */
+.btn-warning{
+ border: 1px solid #FF8D29;
+ background: #FF8D29;
+ color: #000000;
+}
+
+button a{
+   color: #000000;
+}
+
+button a:hover {
+  color: #FF8D29;
+  text-decoration: none;
+}
+
+.resume {
+  width: 100%;
+}
+
+/* Social icons */
+a i {
+color: #FF8D29;
+}
+
+a i:hover {
+  color: #4C4C4C;
+}
+
+/* Profile image */
+.bart {
+  width: 40px;
+  border-radius: 100px;
+}
+
+/* Portfolio items */
+.portfolio-img {
+  cursor: pointer;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.modal-img, .modal-video {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+/* Typewriter effect */
+.home {
+  margin-bottom: 0;
+  background: #FFFFFF;
+  height: 750px;
+  align-items: center;
+}
+
+.intro {
+  font-size: 5rem;
+  color: #FFFFFF;
+}
+
+.typewrite {
+  padding: 0;
+  font-size: 5rem;
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.break:after {
+  content: '\A';
+  white-space: pre;
+}
+
+/* MEDIA QUERIES - Same as your original */
+@media (max-width: 575.98px) {
+  p {
+    color: #4C4C4C;
+  }
+  .main {
+    border: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  p {
+    color: #4C4C4C;
+  }
+  .main {
+    border: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  p {
+    color: #4C4C4C;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  p {
+    color: #4C4C4C;
+  }
+}
+
+@media (min-width: 1200px) {
+  p {
+    color: #4C4C4C;
+  }
+}
+
+@media (min-width: 1400px) {
+  p {
+    color: #4C4C4C;
+  }
+}
